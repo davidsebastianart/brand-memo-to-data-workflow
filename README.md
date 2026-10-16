@@ -44,7 +44,8 @@ Proyek ini adalah **simulasi alur kerja Business Data Admin** dengan tiga tujuan
 
 ![Dashboard Memo-to-Data](Dashboard/memo_to_data_dashboard.png)
 > **Versi Interaktif:** [Buka Workbook Google Sheets (view-only)](https://docs.google.com/spreadsheets/d/1CFBinDfauiG6uni45l-5AWVChDbdWkigazJGTrRDrS8/edit?usp=sharing)
-> **Laporan untuk Atasan:** [Google Docs](https://docs.google.com/document/d/1o7PzHekeO0SR4HH3cgmeBCznpjT6rTVAkHGD5ns1Qmw/edit?usp=sharing) | [PDF]([ISI_LINK_PDF_LAPORAN](https://docs.google.com/document/d/1o7PzHekeO0SR4HH3cgmeBCznpjT6rTVAkHGD5ns1Qmw/edit?usp=drive_link) | **Memo:** [Folder Drive](https://drive.google.com/drive/folders/1Ugt-zr0JbNbipkKfuC4kOUaIlCXBkA6v?usp=drive_link)
+> **Laporan:** [Google Docs](https://docs.google.com/document/d/1o7PzHekeO0SR4HH3cgmeBCznpjT6rTVAkHGD5ns1Qmw/edit?usp=sharing) | [PDF](https://drive.google.com/file/d/17nAPObyFPEN9yaGkniDosonxacNVPy25/view?usp=drive_link)
+> **Memo:** [Folder Drive](https://drive.google.com/drive/folders/1Ugt-zr0JbNbipkKfuC4kOUaIlCXBkA6v?usp=drive_link)
 
 ## Isi Workbook
 
