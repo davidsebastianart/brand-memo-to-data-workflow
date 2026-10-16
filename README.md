@@ -15,7 +15,7 @@ Proyek ini adalah **simulasi alur kerja Business Data Admin** dengan tiga tujuan
 3. Bagaimana setiap perubahan data bisa ditelusuri ke memo penyebabnya?
 4. Seberapa cepat memo yang ambigu bisa diklarifikasi dengan brand?
 
-### Cara Saya Membangunnya
+### Proses Membangunnya
 
 1. **Persiapan Data Master (Google Sheets):** Memulai dari 980 model smartphone, menyeragamkan nama brand, membuat kode SKU unik, mengonversi harga dari INR ke IDR dengan kurs asumsi tetap, dan mensimulasikan harga modal dealer sebesar 80-92% dari harga jual (lalu dibekukan agar tidak berubah saat dihitung ulang).
 2. **Simulasi Memo:** Menulis 8 memo brand fiktif yang mencakup perubahan harga, promo, SKU baru, produk discontinue, dan revisi. Tiga di antaranya sengaja bermasalah: diskon ambigu, harga di bawah modal, dan promo bertumpuk.
@@ -23,7 +23,7 @@ Proyek ini adalah **simulasi alur kerja Business Data Admin** dengan tiga tujuan
 4. **Komunikasi Brand dan Jejak Audit:** Mencatat pertanyaan klarifikasi di `brand_query_log`, memvalidasi ulang data yang sudah dikoreksi sebagai batch kedua, menyimpan promo di `promo_schedule` terpisah agar tidak menimpa harga normal, dan mencatat setiap perubahan di `change_log` lengkap dengan rujukan memo dan pertanyaan.
 5. **Pelaporan:** Membuat dashboard berbasis rumus yang diperbarui otomatis dan menulis laporan satu halaman untuk manajemen.
 
-### Temuan (Apa yang Ditunjukkan Data)
+### Temuan
 
 *(Data simulasi. Angka-angka ini menggambarkan cara kerja alur, bukan hasil bisnis yang nyata.)*
 
@@ -34,7 +34,7 @@ Proyek ini adalah **simulasi alur kerja Business Data Admin** dengan tiga tujuan
 - **Margin Tipis Butuh Pemilik Keputusan:** Dua promo lolos dengan margin 0,88% dan 4,30%, di bawah ambang review 5%, dan ditandai untuk persetujuan manajemen.
 - **Klarifikasi Cepat:** Tiga pertanyaan ke brand selesai dengan rata-rata balasan 1,3 hari.
 
-### Rekomendasi Strategis (Untuk Manajemen)
+### Rekomendasi Strategis
 
 1. **Tetapkan Batas Margin untuk Persetujuan Promo:** Wajibkan persetujuan manajemen untuk promo dengan margin di bawah 5%, supaya keputusan margin tipis diambil secara sadar, bukan tidak sengaja.
 2. **Wajibkan Rujukan "Menggantikan Memo":** Minta brand menyebut nomor memo yang digantikan setiap kali merevisi harga atau promo, agar tidak ada instruksi yang bertumpuk.
