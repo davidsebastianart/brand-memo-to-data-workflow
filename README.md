@@ -40,7 +40,7 @@ Proyek ini adalah **simulasi alur kerja Business Data Admin** dengan tiga tujuan
 2. **Wajibkan Rujukan "Menggantikan Memo":** Minta brand menyebut nomor memo yang digantikan setiap kali merevisi harga atau promo, agar tidak ada instruksi yang bertumpuk.
 3. **Standarkan Format Memo:** Minta brand mencantumkan diskon dan harga akhir dalam satu tabel, sehingga teks dan lampiran tidak bisa saling bertentangan.
 
-## 📊 Pratinjau Dashboard
+## 📊 Dashboard
 
 ![Dashboard Memo-to-Data](Dashboard/memo_to_data_dashboard.png)
 > **Versi Interaktif:** [Buka Workbook Google Sheets (view-only)](https://docs.google.com/spreadsheets/d/1CFBinDfauiG6uni45l-5AWVChDbdWkigazJGTrRDrS8/edit?usp=sharing)
